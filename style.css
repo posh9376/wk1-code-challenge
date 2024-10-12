@@ -1,0 +1,94 @@
+.grade{
+    height: 45vh;
+    display: flex;
+}
+#img{
+    width: 256px;
+
+}
+button{
+    margin-top: 120px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: large; 
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px;
+}
+.output{
+    margin-left: 25px;
+}
+.outer{
+    height: 50vh;
+    display: flex;
+}
+.speed-detector{
+    width: 50%;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    background-image: url(./photos/pexels-eberhardgross-1624438.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+}
+.content{
+    margin-left: 50px;
+}
+label{
+    font-size: large;
+}
+#input{
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: large;
+}
+#submit{
+    font-size: large;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.answer-box{
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.net-salary{
+    margin-left: 20px;
+    width: 50%;
+    display: flex;
+}
+.input-side{
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.123);
+    box-shadow: 0 0 10px;
+}
+.output-side{
+    background-color: bisque;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0 0 10px;
+}
+#payForm{
+ margin-left: 20px;
+ line-height: 40px;
+ font-size: large;
+}
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
